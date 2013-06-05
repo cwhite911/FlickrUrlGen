@@ -1,9 +1,9 @@
 import flickrapi
 import csv
 
-api_key = '69f5c4bed93103c83054f0ac3dc0a2fc'
+api_key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 flickr = flickrapi.FlickrAPI(api_key)
-photoset = '72157630529238250'
+photoset = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 def urlGen( photoset_id ):
 	with open('graveurls.csv', 'w') as o:
 		for photo in flickr.walk_set( photoset_id ):
