@@ -2,9 +2,9 @@ import flickrapi
 import psycopg2
 
 
-api_key = 'c799093384940407719d64ef86290d23'
+api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxx'
 flickr = flickrapi.FlickrAPI(api_key)
-photoset = '72157630529238250'
+photoset = 'xxxxxxxx'
 def urlGen( photoset_id ):
 	con = None
 	try:
